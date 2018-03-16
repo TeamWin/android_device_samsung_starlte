@@ -67,3 +67,5 @@ LOCAL_MODULE := unpackdtbhimg
 include $(BUILD_HOST_EXECUTABLE)
 
 $(call dist-for-goals,dist_files,$(LOCAL_BUILT_MODULE))
+
+include $(LOCAL_PATH)/libfdt/Android.mk
