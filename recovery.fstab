@@ -1,4 +1,5 @@
 /system		ext4	/dev/block/platform/11120000.ufs/by-name/SYSTEM
+/system_image	emmc	/dev/block/platform/11120000.ufs/by-name/SYSTEM
 /data		ext4	/dev/block/platform/11120000.ufs/by-name/USERDATA	flags=length=-20480,encryptable=footer
 /cache		ext4	/dev/block/platform/11120000.ufs/by-name/CACHE
 /preload	ext4	/dev/block/platform/11120000.ufs/by-name/HIDDEN	flags=backup=1;display="Preload"
@@ -11,7 +12,8 @@
 /cpefs		ext4	/dev/block/platform/11120000.ufs/by-name/CPEFS	flags=backup=1;display="CPEFS"
 
 /misc		emmc	/dev/block/platform/11120000.ufs/by-name/MISC	flags=backup=0;display="Misc"
-/vendor		ext4	/dev/block/platform/11120000.ufs/by-name/VENDOR	flags=backup=1;display="Vendor"
+/vendor		ext4	/dev/block/platform/11120000.ufs/by-name/VENDOR
+/vendor_image	emmc	/dev/block/platform/11120000.ufs/by-name/VENDOR
 /odm		ext4	/dev/block/platform/11120000.ufs/by-name/ODM	flags=backup=1;display="ODM"
 
 /external_sd	vfat	/dev/block/mmcblk0p1 /dev/block/mmcblk0	flags=display="Micro SDcard";storage;wipeingui;removable
