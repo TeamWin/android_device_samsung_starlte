@@ -16,4 +16,4 @@
 /odm		ext4	/dev/block/platform/11120000.ufs/by-name/ODM	flags=backup=1;display="Carrier Configs";flashimg
 
 /external_sd	vfat	/dev/block/mmcblk0p1 /dev/block/mmcblk0	flags=display="Micro SDcard";storage;wipeingui;removable
-/usb-otg	vfat	/dev/block/sde1 /dev/block/sde		flags=display="USB-OTG";storage;wipeingui;removable
+/usb-otg	vfat	/dev/block/sdf1 /dev/block/sdf		flags=display="USB-OTG";storage;wipeingui;removable
